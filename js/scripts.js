@@ -38,3 +38,7 @@ function Place(location,landmark,timeOfYear){
   this.landmark=landmark;
   this.timeOfYear=timeOfYear;
 }
+
+Place.prototype.notes = function(notes){
+  return this.notes = notes
+}
