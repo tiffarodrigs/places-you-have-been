@@ -23,6 +23,13 @@ ListOfPlaces.prototype.findPlace = function(id){
   return false;
   }
 
+ListOfPlaces.prototype.deletePlace= function(id){
+  if(this.places[id] === undefined){
+    return false
+  }
+  delete this.places[id];
+  return true;
+}
 
 // Logic for Place
 

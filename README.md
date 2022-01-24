@@ -43,3 +43,12 @@ Test:To create an instance of object of type Place
 code:let Miami = new Place("Florida","SouthBeach","Summer")
 Expected_Outcome: Miami = {
     location = "Florida", landmark = "SouthBeach", timeOfYear = "Summer"}
+
+Describe : Place.prototype.notes()
+
+Test: To add notes property to the place object
+Code:
+Place.prototype.notes = function(notes){
+  return this.notes = notes
+}
+Expected outcome: Add notes property
