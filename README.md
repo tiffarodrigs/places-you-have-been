@@ -18,6 +18,11 @@ Test:this function will assign a unique id for each place
 Code:ListOfPlace.prototype.assignId()
 Expected_Outcome: Assign an ID
 
+Describe: ListOfPlace.prototype.findPlace()
+Test: This function will find a place in the ListOfPlaces
+Code:ListOfPlace.prototype.findPlace()
+Expected_Outcome: Find place
+
 
 Describe : Place()
 
