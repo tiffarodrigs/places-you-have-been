@@ -1,3 +1,12 @@
+Describe : ListOfPlaces()
+
+Test: The functions should create an object called ListOfPlaces.
+Code:
+ListOfPlaces = {
+  this.places = {};
+}
+Expected Outcome: ListOfPlaces = {places}
+
 Describe : Place()
 
 Test: the constructor Place should have location,landmark,time_of the year as arguments
