@@ -20,8 +20,13 @@ Expected_Outcome: Assign an ID
 
 Describe: ListOfPlace.prototype.findPlace()
 Test: This function will find a place in the ListOfPlaces
-Code:ListOfPlace.prototype.findPlace()
+Code:ListOfPlace.prototype.findPlace(id)
 Expected_Outcome: Find place
+
+Describe: ListOfPlace.prototype.deletePlace()
+Test: This function will find delete a place in the ListOfPlaces
+Code:ListOfPlace.prototype.deletePlace(id)
+Expected_Outcome: Delete place
 
 
 Describe : Place()
