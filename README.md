@@ -7,6 +7,18 @@ ListOfPlaces = {
 }
 Expected Outcome: ListOfPlaces = {places}
 
+Describe: ListOfPlace.prototype.addPlace(place)
+Test: This function will add place to ListOfPlaces.
+Code:
+ListOfPlaces.prototype.addPlace(place)
+Expected Outcome: ListOfPlaces.place = {}
+
+Describe: ListOfPlace.prototype.assignId()
+Test:this function will assign a unique id for each place
+Code:ListOfPlace.prototype.assignId()
+Expected_Outcome: Assign an ID
+
+
 Describe : Place()
 
 Test: the constructor Place should have location,landmark,time_of the year as arguments
