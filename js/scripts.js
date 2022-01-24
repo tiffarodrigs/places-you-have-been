@@ -16,6 +16,13 @@ ListOfPlaces.prototype.addPlace=function(place){
 
 };
 
+ListOfPlaces.prototype.findPlace = function(id){
+  if (this.places[id] != undefined){
+    return this.places[id];
+  }
+  return false;
+  }
+
 
 // Logic for Place
 
