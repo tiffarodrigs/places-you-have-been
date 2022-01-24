@@ -48,3 +48,28 @@ Place.prototype.notes = function(notes){
 //   return this.property = property;
 //   return this.value = value;
 // }
+
+// UI logic
+let listOfPlaces = new ListOfPlaces();
+
+function displayPlace(listOfPlacesToDisplay){
+  let placeslist = $("ul#show-places");
+  let htmlDisplayPlace="";
+  Object.keys(listOfPlacesToDisplay.places).forEach(function(key){
+    const placeObj= listOfPlacesToDisplay.findPlace(key)
+
+  });
+}
+
+$(document).ready(function(){
+  $("form#input").submit(function(event){
+    event.preventDefault();
+
+  let nameInput = $("name-input").val();
+  let landmarkInput = $("landmark-input").val();
+  let timeInput = $("time-input").val();
+
+  let newPlace = new Place(nameInput,landmarkInput,timeInput);
+  listOfPlaces.addPlace(newPlace);
+  })
+})
