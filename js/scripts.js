@@ -42,3 +42,9 @@ function Place(location,landmark,timeOfYear){
 Place.prototype.notes = function(notes){
   return this.notes = notes
 }
+
+// Place.prototype.update = function(property, value){
+//   //this.property = value;
+//   return this.property = property;
+//   return this.value = value;
+// }
