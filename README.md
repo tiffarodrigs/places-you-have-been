@@ -52,3 +52,10 @@ Place.prototype.notes = function(notes){
   return this.notes = notes
 }
 Expected outcome: Add notes property
+
+Describe: Place.prototype.update()
+
+Test: Function should update property value of the object
+Code: 
+Place.prototype.update("Miami", "chicago")
+Expected outcome: Change Miami to chicago
