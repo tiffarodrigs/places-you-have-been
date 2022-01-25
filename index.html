@@ -8,6 +8,34 @@
   <title>Places you've been</title>
 </head>
 <body>
+  <div class="container">
+    <h3>Places you've been</h3>
+    <form id="input">
+      <div class="form-group">
+        <label for="name-input">Name of place you've been:</label>
+        <input type="text" id="name-input">
+      </div>
+      <div class="form-group">
+        <label for="landmark-input">Landmark of place you've been:</label>
+        <input type="text" id="landmark-input">
+      </div>
+      <div class="form-group">
+        <label for="time-input">Time you went to the place:</label>
+        <input type="text" id="time-input">
+      </div>
+      <button type="submit" class="btn btn-primary">Click here to add your place!</button>
+    </form>
+    <h3>Places:</h3>
+    <ul id="show-places">
 
+    </ul>
+    <div id="output">
+      <p>Place name: <span id="place-name"></span></p>
+      <p>Landmark visited: <span id="landmark-visited"></span></p>
+      <p>Time of year visited: <span id="time-of-year"></span></p>
+      <div id="buttons">
+      </div>   
+    </div>
+  </div>
 </body>
 </html>
